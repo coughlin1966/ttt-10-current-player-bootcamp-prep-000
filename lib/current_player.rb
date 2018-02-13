@@ -13,5 +13,9 @@ counter
 end
 
 def current_player(board)
-
+if counter.even?
+  "X"
+else
+  "O"
+end
 end
