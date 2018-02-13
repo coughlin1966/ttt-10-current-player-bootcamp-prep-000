@@ -18,9 +18,9 @@ total = counter_o + counter_x
 end
 
 def current_player(board)
-if total.even?
-  "X"
+if turn_count(board) % 2 == 0
+  return "X"
 else
-  "O"
+  return "O"
 end
 end
