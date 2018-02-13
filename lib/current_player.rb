@@ -8,6 +8,6 @@ board.each do |index|
 #    counter_o +=1
   end
 #counter_x + counter_o
-counter
 end
+counter
 end
