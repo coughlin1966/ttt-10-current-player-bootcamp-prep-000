@@ -18,7 +18,7 @@ total = counter_o + counter_x
 end
 
 def current_player(board)
-if counter.even?
+if total.even?
   "X"
 else
   "O"
