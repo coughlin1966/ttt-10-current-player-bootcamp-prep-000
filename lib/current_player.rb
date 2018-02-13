@@ -14,7 +14,7 @@ board.each do |index|
     counter_o +=1
   end
 end
-total = counter_o + counter_x 
+total = counter_o + counter_x
 end
 
 def current_player(board)
