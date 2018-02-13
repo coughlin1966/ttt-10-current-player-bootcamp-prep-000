@@ -7,5 +7,6 @@ board.each do |board|
   else
     counter_o +=1
   end
+counter_x + counter_o
 end
 end
